@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "env-cmd -f dev.env node app.js",
-    "run": "env-cmd -f prod.env node app.js"
+    "start": "node app.js",
+    "run": "node app.js"
   },
   "repository": {
     "type": "git",
